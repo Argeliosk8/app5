@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'styles/login.css')}}">
+    <title>Gas Tracker</title>
+</head>
+<body>
+<div class = "nav_bar">
+    <div class = "option">
+        <li>
+            <a href="#">Home</a>
+        </li>
+    </div>
+    <div class = "option">
+        <li>
+            <a href="#">Register</a>
+        </li>
+    </div>
+    <div class = "option">
+        <li>
+            <a href="#">Dashboard</a>
+        </li>
+    </div>
+    <div class = "option">
+        <li>
+            <a href="#">Add Vehicle</a>
+        </li>
+    </div>
+    <div class = "option">
+        <li>
+            <a href="#">Login</a>
+        </li>
+    </div>
+</div>
+{% block content %}{% endblock %}
+<div class="bottom_banner">
+     <h4>Developed by Argelio Baca</h2>
+</div>
+
+</body>
+</html>
+
